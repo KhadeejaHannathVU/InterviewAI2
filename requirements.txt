@@ -2,4 +2,4 @@ streamlit
 opencv-python
 pyttsx3
 SpeechRecognition
-PyAudio
+# PyAudio removed because Streamlit Cloud cannot compile portaudio headers
