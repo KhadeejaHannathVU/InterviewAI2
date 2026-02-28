@@ -1,0 +1,24 @@
+{
+  "soft_skills": [
+    "Introduce yourself.",
+    "Tell me about your strengths.",
+    "What are your weaknesses?",
+    "Why should we hire you?",
+    "Describe a challenging situation you faced."
+  ],
+  "domain_based": {
+    "Software Developer": [
+      "Explain object oriented programming.",
+      "What is REST API?",
+      "What is database indexing?"
+    ],
+    "Electronics Core": [
+      "Explain Ohm's Law.",
+      "What is a diode?"
+    ],
+    "Mechanical Engineering": [
+      "Explain thermodynamics laws.",
+      "What is stress and strain?"
+    ]
+  }
+}
