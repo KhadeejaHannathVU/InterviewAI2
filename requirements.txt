@@ -2,4 +2,4 @@ streamlit
 opencv-python
 pyttsx3
 SpeechRecognition
-PyAudio
+# PyAudio removed; not supported in cloud environments
