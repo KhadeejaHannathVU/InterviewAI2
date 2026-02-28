@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 import random
 import time
-from modules.voice import speak, listen, audio_available
+from modules.voice import speak, listen
 from modules.vision import posture_feedback
 
 st.set_page_config(
@@ -12,8 +12,6 @@ st.set_page_config(
 )
 
 st.title("🎤 AI Interview & Posture Trainer")
-if not audio_available:
-    st.warning("Audio input/output is unavailable in this environment; speech features will be disabled.")
 st.markdown("---")
 
 # ---------------- QUESTION BANK ----------------
